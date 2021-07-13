@@ -7,17 +7,17 @@
 
 SEDAICO (Security Elasticity Dependency Analysis In Computing cOntinuum) framework aids the developers in establishing concrete security-elasticity dependency analytics for the IIoT platform services.
 
-### Components and code structure
+## Components and code structure
 The Sedaico framework has the following components and the code has been structured in the same order:
 
 ![SEDAICO](figures/framework_new.svg)
 
-### Using the framework:
+## Using the framework:
 
-#### Softwares required:
+### Softwares required:
 * Docker and Docker compose: See: https://docker.com
 
-#### Steps:
+### Steps:
 
 
 ---
