@@ -28,7 +28,9 @@ Rohit Raj, Hong-Ling Truong, "On Analysis of Security and Elasticity Dependency 
 ### Citing
 If you use this repository or the paper, please cite as:
 
-> Rohit Raj, Hong-Ling Truong, "On Analysis of Security and Elasticity Dependency in IIoT Platform Services", _2021 IEEE International Conference on Services Computing (SCC)_, (to appear), 2021.
+```
+Rohit Raj, Hong-Ling Truong, "On Analysis of Security and Elasticity Dependency in IIoT Platform Services", _2021 IEEE International Conference on Services Computing (SCC)_, (to appear), 2021.
+```
 
 or BibTeX entry
 

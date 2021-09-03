@@ -1,0 +1,15 @@
+version: "3.8"
+services: 
+    repo-database:
+        image: mongo:latest
+        volumes:
+          - /mnt/db:/data/db
+        ports: 
+          - "27018:27017"
+        environment: 
+          - MONGO_INITDB_ROOT_USERNAME=root # Always use environment variable and never this!
+          - MONGO_INITDB_ROOT_PASSWORD=password 
+    repo-queue:
+        image: redis:latest
+        ports:
+          - "6379:6379"

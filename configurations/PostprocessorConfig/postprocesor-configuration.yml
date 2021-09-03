@@ -1,0 +1,11 @@
+organization: aalto
+database:
+    type: mongodb # Currently only MongoDB supported
+    address: localhost
+    port: 27018
+    username: XXXX #update these
+    password: XXXX #update these
+queue-processor:
+    type: redis # Currently only Redis supported
+    address: localhost
+    port: 6379

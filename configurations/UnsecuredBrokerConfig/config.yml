@@ -1,0 +1,13 @@
+# Note : These are only sample values
+name: "unsecured broker"
+broker:
+    type: "mqtt"
+    address: "localhost"
+    port: 1883
+    topic: "ONT_DATA_SENSOR_UNSECURED"
+
+deployment:
+    type: "sensor"
+    rate: "10" # Duration in publish per second for each sensor
+    number: "5" # number of sensors
+    duration: "1000" # Duration to run each sensor
