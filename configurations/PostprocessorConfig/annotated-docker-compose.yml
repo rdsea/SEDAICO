@@ -1,0 +1,10 @@
+# @framework: SEDAICOFramework
+# @test-type: T01-UB
+version : "3.7"
+services:
+# @sub-system: edge
+# @type: broker
+  vmq−main:
+  image: vernemq / vernemq
+  ports:
+  - 1883:1883 
