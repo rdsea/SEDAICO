@@ -13,12 +13,19 @@ The Sedaico framework has the following components and the code has been structu
 ![SEDAICO](figures/framework_new.svg)
 
 ## Using the framework:
+The framework can be used with the following steps (For an in-depth details checkout the main paper below):
+* Annotate your IUT (Implementation under test)
+* Run the annotated config files with the PostProcessor
+* Run the monitoring profiles
+* Deploy the IoT Profile and then test profiles
+* Use analytics the generate security-elasticity dependencies
 
-### Softwares required:
+Currently SEDAICO has one analytics and test profile that supports unsecured broker configuration at edge subsystem.
+
+### Dependencies:
 * Docker and Docker compose: See: https://docker.com
-
-### Steps:
-
+* Python 3.x and pip
+* Bash/sh shell for provisioning IoT sensors from profile
 
 ---
 

@@ -41,12 +41,12 @@ class AnnotatedDocumentHandler():
     
     def validate(self):
         #first we validate the header
-        if "# @framework: SEAFramework"  not in self.annotations:
+        if "# @framework: SEDAICOFramework"  not in self.annotations:
             self.status = StatusCodes.ERROR
-            print(f"{bcolors().FAIL} The SEAFramework Header does not exist. Cannot proceed.")
+            print(f"{bcolors().FAIL} The SEDAICOFramework Header does not exist. Cannot proceed.")
             return False
         else:
-            print(f"{bcolors().OKGREEN} SEAFramework header found. Proceeding.{bcolors().ENDC}")
+            print(f"{bcolors().OKGREEN} SEDAICOFramework header found. Proceeding.{bcolors().ENDC}")
         
 
         test = False

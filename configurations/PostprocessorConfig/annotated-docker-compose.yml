@@ -1,4 +1,4 @@
-# @framework: SEAFramework
+# @framework: SEDAICOFramework
 # @test-type: T01-UB
 version : "3.7"
 services:
